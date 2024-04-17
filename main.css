@@ -1,0 +1,58 @@
+body {
+    background-color: aliceblue;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+p {
+    color: black;
+    text-decoration: underline;
+  }
+  
+.profilePic {
+    border-radius: 50%;
+    width: 200px;
+    border: 3px solid gray;
+  }
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+.socialIcons {
+    width: 25px;
+    height: 25px;
+    margin-left: 7px;
+    margin-right: 7px;
+    align-items: row;
+  }
+
+.imgSrc {
+    width: 25px;
+    height: 25px;
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+
+.btn-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+.btn {
+    width: 80%;
+    margin-top: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;;
+    border-radius: 6px;
+    color: whitesmoke;
+    background-color: black;
+  }
